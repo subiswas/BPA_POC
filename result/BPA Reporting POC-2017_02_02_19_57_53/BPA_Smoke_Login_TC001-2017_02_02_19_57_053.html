@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html> 
+  <head> 
+    <style>.datagrid table { border-collapse: collapse; text-align: left; width: 100%; }.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow-x: auto; border: 1px solid #006699; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }.datagrid table td, .datagrid table th { padding: 3px 10px; }.datagrid table thead th {background-color:#006699; color:#FFFFFF; font-size: 12px; font-weight: bold; border-left: 1px solid #0070A8; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { color: #00557F; border-left: 2px solid #E1EEF4;font-size: 12px;font-weight: normal; }.datagrid table tbody .alt td { background: #E1EEf4; color: #00557F; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }.datagrid table tfoot td div { border-top: 1px solid #006699;background: #E1EEf4;} .datagrid table tfoot td { padding: 0; font-size: 12px } .datagrid table tfoot td div{ padding: 2px; }.datagrid table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; }.datagrid table tfoot li { display: inline; }.datagrid table tfoot li a { text-decoration: none; display: inline-block; padding: 2px 8px; margin: 1px;color: #FFFFFF;border: 1px solid #006699;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');background-color:#006699; }.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover { text-decoration:none;border-color: #00557F; color: #FFFFFF; background: none;background-color:#006699;} .serviceDetail table { border-collapse: collapse; text-align: left; } .serviceDetail { font: normal 9px/150% Arial, Helvetica, sans-serif; background: #fff; overflow-x: auto; border: 1px solid #1e1e1e; width: 85%; } .serviceDetail table td, .serviceDetail table th { padding: 3px 10px; } .serviceDetail table thead th { background-color:#aaccee; color:#000000; font-size: 10px; font-weight: bold; border-left: 1px solid #aaccee; } .serviceDetail table thead th:first-child { border: none; } .serviceDetail table tbody td { color: #000000; border-left: 2px solid #E1EEF4;font-size: 10px;font-weight: normal; } .serviceDetail table tbody .alt td { background: #E1EEf4; color: #00557F; } .serviceDetail table tbody td:first-child { border-left: none; } .serviceDetail table tbody tr:last-child td { border-bottom: none; } .serviceDetail table tfoot td div { border-top: 1px solid #006699;background: #E1EEf4; } .serviceDetail table tfoot td { padding: 0; font-size: 12px } .serviceDetail table tfoot td div { padding: 2px; } .serviceDetail table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; } .serviceDetail table tfoot li { display: inline; } .serviceDetail table tfoot li a { text-decoration: none; display: inline-block; padding: 2px 8px; margin: 1px; color: #FFFFFF; border: 1px solid #006699; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) ); background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% ); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');background-color:#006699; } .serviceDetail table tfoot ul.active, .serviceDetail table tfoot ul a:hover { text-decoration:none;border-color: #00557F; color: #FFFFFF; background: none;background-color:#006699; }</style>  
+    <script type="text/javascript" src="codebase/js/jquery.min.js">//Test</script>  
+    <script src="codebase/js/highcharts.js">//Test</script>  
+    <script src="codebase/js/result.js">//Test</script> 
+  </head>  
+  <body onload="detail('container','test');"> 
+    <div align="center"> 
+      <h1 id="header">BPA_Smoke_Login_TC001</h1> 
+    </div>  
+    <table align="center"> 
+      <tr> 
+        <td> 
+          <div id="container" style="min-width: 500px; height: 400px; margin: 0 auto"/> 
+        </td>  
+        <td> 
+          <div class="datagrid"> 
+            <table id="tblDetails"> 
+              <thead> 
+                <tr> 
+                  <th>Date</th>  
+                  <th>No. of Pass</th>  
+                  <th>No. of Fail</th> 
+                </tr> 
+              </thead>  
+              <tbody> 
+                <tr> 
+                  <td id="date">02-02-2017</td>  
+                  <td id="pCount"/>  
+                  <td id="fCount"/> 
+                </tr> 
+              </tbody> 
+            </table> 
+          </div> 
+        </td> 
+      </tr> 
+    </table>  
+    <div class="datagrid"> 
+      <table id="tblDetail"> 
+        <thead> 
+          <tr> 
+            <th>S.No.</th>  
+            <th>Test Step</th>  
+            <th>Expected</th>  
+            <th>Actual</th>  
+            <th>Timestamp</th>  
+            <th>Status</th>  
+            <th>Link</th> 
+          </tr> 
+        </thead>  
+        <tbody> 
+          <tr id="00897aa6-1bf0-4c86-b229-8d554ee90708" name="PASS"> 
+            <td>1</td>  
+            <td>Verify Browser launch</td>  
+            <td>Browser should be launched</td>  
+            <td>Browser is launched</td>  
+            <td>2017/02/02 19:57:054</td>  
+            <td>PASS</td>  
+            <td/> 
+          </tr>  
+          <tr id="e4092af7-fff6-4f74-b101-8e67a1c6d4cf" name="PASS"> 
+            <td>2</td>  
+            <td>Verify Browser launch</td>  
+            <td>Browser should be launched</td>  
+            <td>Browser is launched</td>  
+            <td>2017/02/02 19:57:057</td>  
+            <td>PASS</td>  
+            <td> 
+              <a href="Screenshot/screen-f685bec9-3947-4aa3-a798-c9a43276662e.png">Link</a> 
+            </td> 
+          </tr>  
+          <tr id="8272a0d5-5424-48ee-9b73-0e82b06304dc" name="INFO" style="background-color:#ADD8E6;"> 
+            <td>3</td>  
+            <td>Go to http://bpa1.qa.wiley.com:8080/bpa/login.htm</td>  
+            <td/>  
+            <td/>  
+            <td>2017/02/02 19:57:058</td>  
+            <td>INFO</td>  
+            <td/> 
+          </tr>  
+          <tr id="74c88f04-bd11-4a16-a146-ec5bb1ebac17" name="PASS"> 
+            <td>4</td>  
+            <td>Verify element displayed - logincontainer</td>  
+            <td>Should display - logincontainer</td>  
+            <td>Displayed - logincontainer</td>  
+            <td>2017/02/02 19:57:058</td>  
+            <td>PASS</td>  
+            <td> 
+              <a href="Screenshot/screen-368d2bae-0c38-4d30-ab08-c6206f6e681e.png">Link</a> 
+            </td> 
+          </tr>  
+          <tr id="5f9f2806-7e51-4776-902d-3b378b915249" name="PASS"> 
+            <td>5</td>  
+            <td>Verify send text - subiswas</td>  
+            <td>'subiswas' should be entered</td>  
+            <td>'subiswas' is entered</td>  
+            <td>2017/02/02 19:57:058</td>  
+            <td>PASS</td>  
+            <td> 
+              <a href="Screenshot/screen-cf8d96a1-1d50-4ea8-b047-5f224d020cf6.png">Link</a> 
+            </td> 
+          </tr>  
+          <tr id="d19e9615-546f-4fda-a21c-d146e97cd1ec" name="PASS"> 
+            <td>6</td>  
+            <td>Verify send text - wiley2345</td>  
+            <td>'wiley2345' should be entered</td>  
+            <td>'wiley2345' is entered</td>  
+            <td>2017/02/02 19:57:059</td>  
+            <td>PASS</td>  
+            <td> 
+              <a href="Screenshot/screen-27a0dcdb-3928-4cdb-8719-385991c8571a.png">Link</a> 
+            </td> 
+          </tr>  
+          <tr id="2d64da31-dc15-47fe-a859-d55d71208a4e" name="PASS"> 
+            <td>7</td>  
+            <td>Verify clicking button - signInButton</td>  
+            <td>Button should be clicked</td>  
+            <td>Button is clicked</td>  
+            <td>2017/02/02 19:58:001</td>  
+            <td>PASS</td>  
+            <td> 
+              <a href="Screenshot/screen-e6670ba6-61ab-4c14-931e-1ac6bb0ca4c4.png">Link</a> 
+            </td> 
+          </tr>  
+          <tr id="f1444760-3fba-4ce0-8f81-6cf6260ce5fb" name="PASS"> 
+            <td>8</td>  
+            <td>Verify element displayed - logout</td>  
+            <td>Should display - logout</td>  
+            <td>Displayed - logout</td>  
+            <td>2017/02/02 19:58:001</td>  
+            <td>PASS</td>  
+            <td> 
+              <a href="Screenshot/screen-0f216bda-fd08-440e-b054-7cf023017756.png">Link</a> 
+            </td> 
+          </tr>  
+          <tr id="96ee0cf0-9f3f-4d86-9493-da213beef5f7" name="PASS"> 
+            <td>9</td>  
+            <td>Verify text - Version 5.1</td>  
+            <td>'Version 5.1' should be displayed</td>  
+            <td>'Version 5.1' is displayed</td>  
+            <td>2017/02/02 19:58:001</td>  
+            <td>PASS</td>  
+            <td> 
+              <a href="Screenshot/screen-78305ca6-8933-49dd-b105-f5b397d1a3b8.png">Link</a> 
+            </td> 
+          </tr>  
+          <tr id="d5d245e0-cd8c-43e7-8754-1728fc3d253d" name="PASS"> 
+            <td>10</td>  
+            <td>Verify clicking button - logout</td>  
+            <td>Button should be clicked</td>  
+            <td>Button is clicked</td>  
+            <td>2017/02/02 19:58:002</td>  
+            <td>PASS</td>  
+            <td> 
+              <a href="Screenshot/screen-0e28883a-daad-421c-9639-8aba38413ac9.png">Link</a> 
+            </td> 
+          </tr>  
+          <tr id="4645e272-a1ae-4470-bc53-ee047d5e98d1" name="PASS"> 
+            <td>11</td>  
+            <td>Verify text - You have successfully logged out of Book Print Archive</td>  
+            <td>'You have successfully logged out of Book Print Archive' should be displayed</td>  
+            <td>'You have successfully logged out of Book Print Archive' is displayed</td>  
+            <td>2017/02/02 19:58:002</td>  
+            <td>PASS</td>  
+            <td> 
+              <a href="Screenshot/screen-2d495a44-f1e7-4ad4-9482-b8a50efd463e.png">Link</a> 
+            </td> 
+          </tr>  
+          <tr id="eec9dece-bf7a-47be-8361-57fb29870fc9" name="PASS"> 
+            <td>12</td>  
+            <td>Verify execution completed</td>  
+            <td>Browser should be closed and excution should be completed</td>  
+            <td>Browser is closed and excution is completed</td>  
+            <td>2017/02/02 19:58:003</td>  
+            <td>PASS</td>  
+            <td></td>
+          </tr> 
+        </tbody> 
+      </table> 
+    </div> 
+  </body> 
+</html>
